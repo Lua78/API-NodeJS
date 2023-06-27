@@ -8,11 +8,27 @@ POST  {{api}}
 Content-Type: application/json
 
 {
-    "namepr": "Cafe",
-    "description": "Cafe en grano",
-    "price": 88,
-    "quantity": 60
+    "namepr": "Crema de pienar",
+    "description": "Crema olor vainilla",
+    "price": 100,
+    "quantity": 15
 }
 ###
 
-DELETE  {{api}}/5
+DELETE  {{api}}/8
+
+###
+
+PUT {{api}}/9
+Content-Type: application/json
+
+{
+    "namepr": "Shampoo",
+    "description": "Shampoo para rizos",
+    "price": 88,
+    "quantity": 60
+}
+
+###
+
+GET {{api}}/9

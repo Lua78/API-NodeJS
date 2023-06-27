@@ -1,0 +1,18 @@
+@api = http://localhost:4000/products
+
+Get {{api}}
+
+###
+
+POST  {{api}}
+Content-Type: application/json
+
+{
+    "namepr": "Cafe",
+    "description": "Cafe en grano",
+    "price": 88,
+    "quantity": 60
+}
+###
+
+DELETE  {{api}}/5
